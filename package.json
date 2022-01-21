@@ -1,0 +1,31 @@
+{
+  "name": "nuCamp_student_excercises",
+  "version": "1.0.0",
+  "description": "Student excercises for nuCamp",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andremichalowski/nuCamp_student_excercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andremichalowski/nuCamp_student_excercises/issues"
+  },
+  "homepage": "https://github.com/andremichalowski/nuCamp_student_excercises#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "liveserver": "^0.1.20",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
