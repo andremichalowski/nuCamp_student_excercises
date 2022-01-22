@@ -16,15 +16,15 @@
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="css/styles.css" />
     
-        <title>NUCAMP SUPLEMENTAL EXCERCISES</title>
+        <title>NUCAMP SUPLEMENTAL EXERCISES</title>
     </head>
 
 <body>
 
     <header>
         <div>
-            <a href="index.html"><h1>NUCAMP SUPLEMENTAL EXCERCISES</h1></a>
-            <p>(Additional excercises to help students with Saturday Workshops)</p>
+            <a href="index.html"><h1>NUCAMP SUPLEMENTAL EXERCISES</h1></a>
+            <p>(Additional exercises to help students with Saturday Workshops)</p>
         </div>
     </header>
 
@@ -68,58 +68,56 @@
               
             <p>/// BUTTONS ///</p>
               <div class="i">
-                <p class="ps"> Font awesome</p>
+                <p class="ps"> <a href="https://fontawesome.com/v5.15/icons?d=gallery&p=2">Font Awesome</a></p>
                 <i class="fa fa-info fa-lg"></i>
                 <i class="fa fa-instagram"></i>
               </div>
               <br/>
               <div class="i">
-                <p class="ps">Bootstrap Buttons</p>
+                <p class="ps"><a href="https://getbootstrap.com/docs/4.0/components/buttons/">Bootstrap Buttons</a></p>
+                <p class="ps">Change the white button to a blue button!</p>
                 <div class="col">
-                  <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-light">Light</button>
+                    <button type="button" class="btn btn-dark">Dark</button>
                 </div>
               </div>
               <br/>
-            <p>/// FORMS ///</p>
+            <p href="https://getbootstrap.com/docs/4.0/components/forms/#horizontal-form">/// FORMS ///</p>
+                <p class="ps i">Click on the link to view different form styling and then add the class 'form-group row' to the empty classes to see how it changes the form shape!</p>
+                <p class="ps i">Then add 'sm' to the end of the 'form-control' class in the first container and 'lg' to the end of the 'form-control' class in the second container to see how it changes the form shape!</p>
+
               <div class="i">
                 <form>
-                  <div class="form-group row">
-                      <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
-                      <div class="col-5 col-md-3">
-                          <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
-                      </div>
-                      <div class="col-7">
-                          <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
-                      </div>
-                  </div>
-                  <div class="form-group row">
-                      <div class="col offset-md-2">
-                          May we contact you?
-                          <div class="form-check form-check-inline">
-                              <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
-                              <label for="contactYes" class="form-check-label">Yes</label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                              <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
-                              <label for="contactNo" class="form-check-label">No</label>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="form-group row">
-                      <div class="offset-md-2 col-md-10">
-                          <button type="submit" class="btn btn-warning">Send Feedback</button>
-                      </div>
-                  </div>
+                    <div class="">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-warning">Send Feedback</button>
+                        </div>
+                    </div>
                 </form>
               </div>
 
             <p>/// CARDS ///</p>
+            <p class="ps i">Change the color of the card header to red and remove 1 piece of information (text + corresponding number) from the card-body.</p>
                 <div class="i">
                     <div class="row row-content i">
-                      <!-- <div class="col-sm-6">
-                          <h3>Our Mission</h3>
-                          <p>We present a curated database of the best campsites in the vast woods and backcountry of the World Wide Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use of resources. The expert wilderness trekkers on our staff personally verify each campsite to make sure that they are up to our standards. We also present a platform for campers to share reviews on campsites they have visited with  each other.</p>
-                        </div> -->
                         <div class="col-sm-6">
                             <div class="card">
                                 <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
@@ -137,21 +135,11 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col">
-                            <div class="card bg-light mt-3">
-                                <blockquote class="blockquote card-body">
-                                    <p class="mb-0">I will not follow where the path may lead, but I will go where there is no path, and I will leave a trail.</p>
-                                    <footer class="blockquote-footer">Muriel Strode,
-                                        <cite title="Source Title">"Wind-Wafted Wild Flowers" -
-                                            The Open Court, 1903
-                                        </cite>
-                                    </footer>
-                                </blockquote>
-                            </div>
-                        </div>   -->
                     </div>
                 </div>
+
             <p>/// TABLES ///</p>
+            <p class="ps i">Remove the 'table-striped' class from the table to see how it changes!</p>
                 <div class="i">
                     <div class="row row-content i">
                         <div class="col-sm-9">
@@ -217,6 +205,7 @@
             <br/>
 
         </div>
+        <p class="ps i">Check out these additional exercises </p>
         <br/>
 
         <div>
@@ -245,8 +234,60 @@
 </html>
 
 
-<!-- MEDIA OBJECT SOLUTION:  
 
+<!-- BUTTON SOLUTION:
+Change:
+    <button type="button" class="btn btn-info">Info</button>
+
+so that 'btn-info' becomes 'btn-warning'
+-->
+
+<!-- CARD SOLUTION:
+<div class="card">
+    <h3 class="card-header bg-danger text-white">Facts At a Glance</h3>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-6">Founded</dt>
+            <dd class="col-6">February 3, 2016</dd>
+            <dt class="col-6">No. of Campsites in 2019</dt>
+            <dd class="col-6">563</dd>
+            <dt class="col-6">No. of Reviews in 2019</dt>
+            <dd class="col-6">4388</dd>
+        </dl>
+    </div>
+</div>
+-->
+
+<!-- FORM SOLUTION:
+<div class="i">
+    <form>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+            <input type="email" class="form-control-sm" id="inputEmail3" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+            <input type="password" class="form-control-lg" id="inputPassword3" placeholder="Password">
+            </div>
+        </div>
+        
+        <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-warning">Send Feedback</button>
+            </div>
+        </div>
+    </form>
+</div>
+-->
+
+<!-- TABLE SOLUTION:
+(Remove class 'table-striped' from table.)
+-->
+
+<!-- MEDIA OBJECT SOLUTION:  
 <div class="media bb">
     <div class="media-body align-self-center">
         <h3>Brutalism in the 1960's</h3>
@@ -254,5 +295,4 @@
     </div>
     <img class="d-flex mr-3 img-thumbnail" src="img/img1.png" alt="Breadcrumb Trail" />
 </div>
-
 -->
