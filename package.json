@@ -1,16 +1,13 @@
 {
   "name": "nuCamp_student_excercises",
   "version": "1.0.0",
-  "description": "Student excercises for nuCamp",
+  "description": "",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server",
-    "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
@@ -46,6 +43,5 @@
   "bugs": {
     "url": "https://github.com/andremichalowski/nuCamp_student_excercises/issues"
   },
-  "homepage": "https://github.com/andremichalowski/nuCamp_student_excercises#readme",
-  "description": ""
+  "homepage": "https://github.com/andremichalowski/nuCamp_student_excercises#readme"
 }
